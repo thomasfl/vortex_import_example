@@ -1,7 +1,7 @@
-= Import webpages from site to vortex cms
+= Import webpages Vortex CMS example
 
-A single script that scrapes articles from web an publish to Vortex CMS using WebDAV protocol.
-This example imports webpages from the site www.ifi.uio.no "Institutt for Informatikk" at
+Scrape webpages and import to the Vortex CMS using the WebDAV protocol.
+This example imports webpages from the site www.ifi.uio.no,"Institutt for Informatikk" at
 the University of Oslo.
 
 = Installation
