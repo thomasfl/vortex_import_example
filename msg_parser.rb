@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
@@ -48,7 +49,7 @@ class MsgParser
                            :introduction => message[:introduction],
                            :body => message[:body],
                            :publishedDate => message[:published],
-                           :author => "Kristin Skar")
+                           :author => "Sigrun Vedø Lien")
     path = vortex.publish(article)
     @vortex.proppatch(path, '<v:publish-date xmlns:v="vrtx">' +
                       message[:published].httpdate.to_s + '</v:publish-date>')
