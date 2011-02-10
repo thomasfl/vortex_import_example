@@ -6,7 +6,7 @@ the University of Oslo.
 
 = Installation
 
-All libraries are available as rubygems.
+Install ruby and rubygems first. This script works with ruby 1.8.7. All libraries are available as rubygems, and can be installed with bundler.
 
   gem install bundler
   gem update --system
