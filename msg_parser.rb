@@ -12,7 +12,7 @@ class MsgParser
   attr :vortex, :coder
 
   def initialize(destination_url)
-    @vortex = Vortex::Connection.new(destination_url, :use_osx_keychain => true)
+    @vortex = Vortex::Connection.new(destination_url)
     @coder = HTMLEntities.new
   end
 
