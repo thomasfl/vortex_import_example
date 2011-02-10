@@ -1,0 +1,21 @@
+= Import webpages from site to vortex cms
+
+A single script that scrapes articles from web an publish to Vortex CMS using WebDAV protocol.
+This example imports webpages from the site www.ifi.uio.no "Institutt for Informatikk" at
+the University of Oslo.
+
+= Installation
+
+All libraries are available as rubygems.
+
+  gem install bundler
+  gem update --system
+  bundle install
+
+= Usage
+
+To execute the script:
+
+  ruby msg_parser.rb
+
+Author: Thomas Flemming, IT Services, University of Oslo 2011
